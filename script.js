@@ -8,12 +8,12 @@ textbox.addEventListener("input", function () {
         countText.style.color = "green";
     } else {
         countText.style.color = "red";
-        countText.textContent = textbox.value.length + " / 280 Text too long!";
+        countText.textContent = textbox.value.length + " /280 Text too long!";
     }
 });
 
 clearBtn.addEventListener("click", function (event) {
     textbox.value = "";
-    countText.textContent = textbox.value.length + " / 280";
+    countText.textContent = textbox.value.length + " /280";
     countText.style.color = "green";
 });
